@@ -1,11 +1,6 @@
 name: ngrok
 on:
-  pull_request:
-  push:
-    branches:
-      - main
-      - dev
-      - 'releases/*'
+  workflow_dispatch:
 
 jobs:
   ngrok:
